@@ -1,0 +1,338 @@
+/**
+ * shorthand.css by Sauravh Singh
+*/
+
+/* CSS Resets */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section, video, object {
+    display: block
+}
+
+a img {
+    border: 0
+}
+
+figure {
+    position: relative
+}
+
+figure img {
+    width: 100%
+}
+
+/* CSS for manage DOM floating layout */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fc {
+    margin: 0px auto;
+}
+
+.cl {
+    clear: left;
+}
+
+.cr {
+    clear: both;
+}
+
+.cb {
+    clear: both;
+}
+
+/* CSS for manage content overflow in layout */
+.oh {
+    overflow: hidden;
+}
+
+.oh_x {
+    overflow-x: hidden;
+}
+
+.oh_y {
+    overflow-y: hidden;
+}
+
+.os {
+    overflow: scroll;
+}
+
+.os_x {
+    overflow-x: scroll;
+}
+
+.os_y {
+    overflow-y: scroll;
+}
+
+/* CSS for manage text typography */
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.i {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.lt {
+    text-decoration: line-through;
+}
+
+.uc {
+    text-transform: uppercase;
+}
+
+.lc {
+    text-transform: lowercase;
+}
+
+/* CSS for manage visility and display of DOM */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.db {
+    display: block;
+}
+
+.di {
+    display: inline;
+}
+
+.dib {
+    display: inline-block;
+}
+
+/* CSS for layout grid */
+.w_05, .w_10, .w_15, .w_20, .w_25, .w_30, .w_35, .w_40, .w_45, .w_50, .w_55, .w_60, .w_65, .w_70, .w_75, .w_80, .w_85, .w_90, .w_95, .w_100 {
+    position: relative;
+    overflow: hidden;
+}
+
+.w_05 {
+    width: 5%;
+}
+
+.w_10 {
+    width: 10%;
+}
+
+.w_15 {
+    width: 15%;
+}
+
+.w_20 {
+    width: 20%;
+}
+
+.w_25 {
+    width: 25%;
+}
+
+.w_30 {
+    width: 30%;
+}
+
+.w_35 {
+    width: 35%;
+}
+
+.w_40 {
+    width: 40%;
+}
+
+.w_45 {
+    width: 45%;
+}
+
+.w_50 {
+    width: 50%;
+}
+
+.w_55 {
+    width: 55%;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+.w_65 {
+    width: 65%;
+}
+
+.w_70 {
+    width: 70%;
+}
+
+.w_75 {
+    width: 75%;
+}
+
+.w_80 {
+    width: 80%;
+}
+
+.w_85 {
+    width: 85%;
+}
+
+.w_90 {
+    width: 90%;
+}
+
+.w_95 {
+    width: 95%;
+}
+
+.w_100 {
+    width: 100%;
+}
+.h_100{
+    height: 100px;
+}
+.h_150{
+    height: 150px;
+}
+.h_200{
+    height: 200px;
+}
+.h_300{
+    height: 300px;
+}
+.h_400{
+    height: 400px;
+}
+.h_500{
+    height: 500px;
+}
+.h_600{
+    height:600px;
+}
+.h_700{
+    height: 700px;
+}
+.h_800{
+    height: 800px;
+}
+.h_900{
+    height: 900px;
+}
+.h_1000{
+    height: 1000px;
+}
+
+/* CSS for manage padding in layout */
+.p_5 {
+    padding: 5px;
+}
+
+.p_10 {
+    padding: 10px;
+}
+
+.p_15 {
+    padding: 15px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_25 {
+    padding: 20px;
+}
+
+.pl_0 {
+    padding-left: 0px;
+}
+
+.pr_0 {
+    padding-right: 0px;
+}
+
+.pt_0 {
+    padding-top: 0px;
+}
+
+.pb_0 {
+    padding-bottom: 0px;
+}
+
+/* CSS for manage margins in layout */
+.m_5 {
+    margin: 0px;
+}
+
+.m_10 {
+    margin: 10px;
+}
+
+.m_15 {
+    margin: 15px;
+}
+
+.m_20 {
+    margin: 20px;
+}
+
+.m_25 {
+    margin: 20px;
+}
+
+.ml_0 {
+    margin-left: 0px;
+}
+
+.mr_0 {
+    margin-right: 0px;
+}
+
+.mt_0 {
+    margin-top: 0px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+.mb_10{
+    margin-bottom: 10px;
+}
